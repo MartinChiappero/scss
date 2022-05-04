@@ -1,0 +1,33 @@
+/*imagnes */
+.carousel-img img { 
+    max-height: $tamanio;
+    object-fit: cover;
+}
+.grid_imagen{
+   display: grid;
+   grid-template-columns: auto auto auto ;
+   grid-template-areas: "img1 img1 img2 "
+                       " img2 img"
+   ; 
+   padding: 10px;
+   column-gap: 10px;
+   row-gap: 10px;
+   justify-content: bet;
+}
+.grid_item{
+   background-color: rgb(4, 4, 4);
+   width: 300px;
+   height: $tamanio;
+   padding: 5px;
+   background-color: rgb(53, 55, 53);
+   animation-name: color;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 2s;
+   animation-delay: 3s;
+}
+.imgv{
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+}
